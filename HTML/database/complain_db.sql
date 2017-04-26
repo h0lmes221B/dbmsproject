@@ -3,7 +3,7 @@
 -- http://www.phpmyadmin.net
 --
 -- Host: localhost
--- Generation Time: Nov 29, 2013 at 04:32 AM
+-- Generation Time: April 24 , 2017 at 04:32 AM
 -- Server version: 5.0.67
 -- PHP Version: 5.2.6
 
@@ -14,7 +14,7 @@
 /*!40101 SET NAMES utf8 */;
 
 --
--- Database: `complain_db`
+-- Database: `mydb`
 --
 
 -- --------------------------------------------------------
@@ -46,15 +46,15 @@ CREATE TABLE IF NOT EXISTS `tbl_complains` (
 --
 
 INSERT INTO `tbl_complains` (`cid`, `cust_id`, `cust_name`, `comp_type`, `comp_title`, `comp_desc`, `status`, `eng_id`, `eng_name`, `eng_comment`, `create_date`, `close_date`) VALUES
-(2, 2, 'ayesha khan', 'hardware', 'my machine is making noice.', 'Hi.\r\n\r\nMy machine is making to much noice, will u plz assist.\r\n\r\nthanks', 'close', 1, 'Prashant Kumar', 'working on it.', '2010-11-27 18:59:12', '0000-00-00 00:00:00'),
-(3, 2, 'ayesha khan', 'software', 'MS Office is not working', 'Hi.\r\n\r\nMS Office is not working. i think its a problem of virus.\r\nplease help.\r\n\r\nThanks', 'close', 2, 'Aijaz Aslam', 'poblem of virus. working on it.\r\nwill need some time', '2010-11-27 19:04:14', '0000-00-00 00:00:00'),
-(4, 1, 'rizwan khatik', 'network', 'Unable to connect', 'Hello.\r\n\r\nI am unable to connect to 10.88.29.098. their is a problem in LAN. Please do needful.\r\n\r\nRegards\r\nRizwan', 'assigned', 5, 'Ramiz Khan', '', '2010-11-27 19:30:10', '0000-00-00 00:00:00'),
-(6, 1, 'rizwan khatik', 'network', 'Internet is very slow', 'Hi. \r\nMy internate connection is very slow.\r\n', 'working', 1, 'Prashant Kumar', 'Working on it', '2010-11-28 09:26:36', '0000-00-00 00:00:00'),
-(7, 3, 'heena', 'software', 'MS Office is not working', 'hi,\r\nms office is not working fine. may be a problem of virus,\r\n\r\nplz assist.\r\n\r\nheena', 'close', 3, 'Atul Nigade', 'complain is resloved', '2010-11-28 14:08:49', '0000-00-00 00:00:00'),
-(8, 1, 'rizwan khatik', 'hardware', 'My monitor is not getting display', 'Hello.\r\n\r\nI have problem in my monitor\r\nplz assist\r\n\r\nrizwan', 'working', 3, 'Atul Nigade', 'i am working on it', '2010-12-07 21:49:38', '0000-00-00 00:00:00'),
-(9, 6, 'asif', 'software', 'My setup box is not working', 'hello,\r\n\r\nmy setup box is not working well. please assist.\r\n\r\nThanks', 'open', 0, '', '', '2012-02-05 17:35:36', '0000-00-00 00:00:00'),
-(10, 6, 'asif', 'hardware', '', '', 'open', 0, '', '', '2012-03-24 10:02:18', '0000-00-00 00:00:00'),
-(11, 1, 'rizwan khatik', 'software', 'problem in installation', 'Facing problem in installation of WLAN. Pls assist.', 'assigned', 5, 'Ramiz Khan', '', '2013-11-29 09:48:32', '0000-00-00 00:00:00');
+(2, 2, 'Tushar Murarka', 'hardware', 'My machine is making noice.', 'Hi.\r\n\r\nMy machine is making to much noice, will u plz assist.\r\n\r\nThanks.', 'close', 1, 'Prashant Kumar', 'working on it.', '2017-04-02 12:00:12', '0000-00-00 00:00:00'),
+(3, 2, 'Tushar Murarka', 'software', 'MS Office is not working', 'Hi.\r\n\r\nMS Office is not working.I think its a problem of virus.\r\nPlease help.\r\n\r\nThanks', 'close', 2, 'Himanshu Gusain', 'Problem of virus. working on it.\r\nWill need some time', '2017-04-04 19:04:14', '0000-00-00 00:00:00'),
+(4, 1, 'Pranjul Tripathi', 'network', 'Unable to connect', 'Hello.\r\n\r\nI am unable to connect to 10.88.29.098. their is a problem in LAN. Please do the needful.\r\n\r\nRegards\r\nPranjul', 'assigned', 5, 'Prince Nanda', 'Working on it', '2017-04-05 19:30:10', '0000-00-00 00:00:00'),
+(6, 1, 'Pranjul Tripathi', 'network', 'Internet is very slow', 'Hi. \r\nMy internet connection is running slow.\r\n', 'assigned', 1, 'Prashant Kumar', 'Working on it', '2017-04-06 09:26:36', '0000-00-00 00:00:00'),
+(7, 3, 'Prajjawal Agarwal', 'software', 'Some softwares are not working', 'Hi,\r\nI think there aresome License issues,\r\n\r\nPlease assist.\r\n\r\nRegards, Prajjawal Agarwal', 'close', 3, 'Sudeept Dwivedi', 'Complaint is resloved, mailed you the details.', '2017-04-11 14:08:49', '0000-00-00 00:00:00'),
+(8, 4, 'Shubhanshu Singh', 'hardware', 'My monitor is not getting display', 'Hello.\r\n\r\nI have problem in my monitor\r\nPlease assist\r\n\r\nRegards, Shubh', 'working', 3, 'Sudeept Dwivedi', 'I am working on it', '2017-04-13 21:49:38', '0000-00-00 00:00:00'),
+(9, 4, 'Shubhanshu Singh', 'software', 'My setup box is not working', 'Hello,\r\n\r\nMy setup box is not working well. Please assist.\r\n\r\nThanks', 'open', 0, '', '', '2012-02-05 17:35:36', '0000-00-00 00:00:00'),
+(10, 5, 'Deepak Kumar', 'hardware', 'System not booting up', 'Hello\r\n\r\nI have a system booting issue , kindly assist.', 'working', 2, 'Himanshu Gusain', 'Kindly keep on checking.Will update the details soon.', '2017-04-19 10:02:18', '0000-00-00 00:00:00'),
+(11, 5, 'Deepak Kumar', 'software', 'Problem in Installation', 'Facing problem in installation of WLAN. Please assist.', 'assigned', 5, 'Prince Nanda', 'Mailed you the details', '2017-04-21 09:48:32', '0000-00-00 00:00:00');
 
 -- --------------------------------------------------------
 
@@ -78,10 +78,11 @@ CREATE TABLE IF NOT EXISTS `tbl_customer` (
 --
 
 INSERT INTO `tbl_customer` (`cid`, `cname`, `cpass`, `address`, `email`, `c_mobile`, `date_time`) VALUES
-(1, 'rizwan khatik', 'riz123', '			  3, Hill side, Bhaguday Nagar, Kondwa			  ', 'riz1.a@gmail.com', '9089789876', '2010-11-27 12:55:39'),
-(4, 'Manmohan Singh', 'mansingh', '10, raj bhavan', 'man.mohan@yo.com', '9652525252', '2011-02-02 23:52:36'),
-(5, 'Sardar', 'sar1', '11, ashoka heights, kondwa, pune', 'sardar.p@yahoo.com', '9521425425', '2011-02-03 07:45:47'),
-(6, 'asif', 'asif123', '290, shani peth, jalgaon', 'asif@gmail.com', '9524254254', '2012-02-05 17:34:38');
+(1, 'Pranjul Tripathi', 'pranjul', 'R-97 , Rani Laxmi Bai Road , Kanpur', 'pranjultripathi@gmail.com', '9089789876', '2016-05-27 12:55:39'),
+(2,'Tushar Murarka','tushar','1,Shastri Nagar , Nagpur.','tusharmurarka@gmail.com','9628352147','2017-04-01 12:00:00'),
+(3,'Prajjawal Agarwal','prajjawal','23 , Lal Nagar , Jamshedpur.','prajjawalagarwal@gmail.com', '9087654312' , '2017-01-01 23:23:23'),
+(4, 'Shubhanshu Singh', 'shubh', '10, Raj Bhavan , Mughal Sarai , Uttar Pradesh', 'shubh@gmail.com', '9652525252', '2016-11-11 23:52:36'),
+(5, 'Deepak Kumar', 'deepak', '11, Ashoka heights, Sector-28, Chandigarh', 'deepakkumar@yahoo.com', '9521425425', '2017-02-03 07:45:47');
 
 -- --------------------------------------------------------
 
@@ -105,9 +106,11 @@ CREATE TABLE IF NOT EXISTS `tbl_engineer` (
 --
 
 INSERT INTO `tbl_engineer` (`eid`, `ename`, `epass`, `address`, `email`, `e_mobile`, `date_time`) VALUES
-(6, 'Amol sarode', 'amol', '			  12/c, camp, pune			  ', 'amol.sarode@gmail.co', '2541258452', '2011-02-02 23:36:51'),
-(5, 'Ramiz Khan', 'ramiz', '10, merta tower', 'ramiz@gmail.com', '9854251425', '2011-02-02 23:36:09'),
-(4, 'Mubarak Bahesti', 'mubarak', '290, asif nagar, pune', 'mubarak@gmail.com', '9856323568', '2011-02-02 23:15:20');
+(1,'Prashant Kumar','prashant','G-31 ,Appa Balwant Chowk , Pune','prashantk@gmail.com','9432657189','2015-03-04 20:34:21'),
+(2, 'Himanshu Gusain','himanshu', '32 , Tower 12 , Magarpatta City , Pune , Maharashtra.','himugusain@gmail.com', '7500987654' , '2016-07-19 22:30:10'),
+(5, 'Prince Nanda', 'prince', '10, Merta Tower , Orissa', 'princenanda@gmail.com', '9854251425', '2016-02-02 23:36:09'),
+(3, 'Sudeept Dwivedi', 'sudeept', '290, Asif Nagar, Kanpur', 'sudeeptdwivedi@gmail.com', '9856323568', '2017-02-02 23:15:20');
+
 
 -- --------------------------------------------------------
 
@@ -155,3 +158,5 @@ CREATE TABLE IF NOT EXISTS `tbl_supplier` (
 
 INSERT INTO `tbl_supplier` (`sid`, `sname`, `spass`, `address`, `email`, `s_mobile`, `date_time`) VALUES
 (1, 'maryam afifa', 'marry123', '290, shani peth, pune', 'maryam.afifa@gmail.com', '9987876765', '2010-11-27 17:29:05');
+
+
