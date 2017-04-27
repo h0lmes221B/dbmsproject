@@ -1,25 +1,34 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto:300);
 #ddblueblockmenu {
-	border: 1px solid;
+	border: 0;
+	 font-family: "Roboto", sans-serif;
+	font-size:25px;
+	padding:10px;
 	border-bottom-width: 0;
-	width: 180px;
+	width: 100%;
+	height:100%;
+	background-color:none;
+	
 }
 
 #ddblueblockmenu ul{
 	margin: 0;
 	padding: 0;
 	list-style-type: none;
-	font: normal 90% 'Trebuchet MS', 'Lucida Grande', Arial, sans-serif;
+	font: Arial, sans-serif;
+	margin:3px;
 	
 }
 
 #ddblueblockmenu li a{
 	display: block;
+	font-size:25px;
 	padding: 3px 0;
 	padding-left: 9px;
-	width: 172px; /*185px minus all left/right paddings and margins*/
+	width: 100%; /*185px minus all left/right paddings and margins*/
 	text-decoration: none;
 	color: white;
-	height:20px;
+	height:30px;
 	background-color: #2175bc;
 	border-bottom: 1px solid #90bade;
 	border-left: 7px solid #1958b7;
@@ -28,7 +37,7 @@
 
 
 #ddblueblockmenu li a:hover {
-	background-color:#990033;
+	background-color:#2175ff;
 	border-left-color: #1c64d1;
 	font-weight:bold;
 }

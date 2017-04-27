@@ -8,7 +8,7 @@ session_start();
 // database connection config
 $dbHost = 'localhost';
 $dbUser = 'root';
-$dbPass = 'helloworld';
+$dbPass = '';
 $dbName = 'mydb';
 
 

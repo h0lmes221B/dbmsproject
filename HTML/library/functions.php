@@ -135,7 +135,7 @@ function doRegister()
 		$errorMessage = 'You must enter the E-mail.';
 	}else {
 		// check the database and see if the username and password combo do match
-		if($utype == 'customer'){
+		
 			
 			$sql = "SELECT cname
 					FROM tbl_customer
@@ -150,22 +150,8 @@ function doRegister()
 				$errorMessage = 'Registration is Successful. You can Login Now.';
 				header('Location: login.php');	
 			}
-		}//if 		
-		else {
-			$sql = "SELECT sname
-					FROM tbl_supplier
-					WHERE sname = '$userName'";
-			$result = dbQuery($sql);
-			if (dbNumRows($result) == 1) {
-				$errorMessage = 'Username already taken. Choose another one';	
-			} else {			
-				$sql   = "INSERT INTO tbl_supplier (sname, spass, address, email, s_mobile, date_time)
-						  VALUES ('$userName', '$password', '$txtAdd','$txtEmail','$txtMob',NOW())";
-				dbQuery($sql);
-				$errorMessage = 'Registration is Successful. You can Login Now.';
-				header('Location: login.php');	
-			}
-		}//else		
+			
+			
 	}//else
 	return $errorMessage;
 }
@@ -175,21 +161,18 @@ function doRegister()
 */
 function doLogout()
 {
-	/*if (isset($_SESSION['user_id'])) {
+	if (isset($_SESSION['user_id'])) {
 		unset($_SESSION['user_id']);
 		session_unregister('user_id');
-	}
-	if (isset($_SESSION['user_name'])) {
 		unset($_SESSION['user_name']);
 		session_unregister('user_name');
-	}
-	if (isset($_SESSION['user_type'])) {
 		unset($_SESSION['user_type']);
 		session_unregister('user_type');
 	}
-	*/	
-	header('Location: login.php');
-	exit;
+	$_SESSION['logged_in']=false;
+	session_destroy();
+	header('Location: '.WEB_ROOT.'index.php');
+
 }
 
 

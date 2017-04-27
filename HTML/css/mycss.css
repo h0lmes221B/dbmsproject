@@ -1,0 +1,19 @@
+body {
+
+  margin:10px 0 0 0;
+}
+
+.nav_panel{
+	float:left;
+	margin-top:20px;
+	width:20%;
+	
+}
+.tm-nav-item {
+	font-size:15px;
+}
+content_panel{
+	width:80%;
+	float:left;
+	height:700px;
+}
