@@ -16,7 +16,7 @@
 	<div>
             <section id="welcome" class="tm-content-box tm-banner margin-b-10">
                 <div class="tm-banner-inner">
-                    <h1 class="tm-banner-title">CC3 HELP</h1>                        
+                    <h1 class="tm-banner-title">Wayne Foundation</h1>                        
                 </div>                    
             </section>
 	</div>	

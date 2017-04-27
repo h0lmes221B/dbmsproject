@@ -24,6 +24,7 @@ $('.message a').click(function(){
 });
 </script>
 </head>
+<body>
 <div class="container">
   <form class="login-form" method="post" name="frmLogin" id="frmLogin">
     <h1>Login </h1>
