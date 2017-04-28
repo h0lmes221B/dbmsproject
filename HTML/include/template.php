@@ -7,7 +7,8 @@
     <link rel="stylesheet" href="css/bootstrap.min.css">                                
     <link rel="stylesheet" href="css/magnific-popup.css">                            
     <link rel="stylesheet" href="css/templatemo-style.css">  
-	<link rel="stylesheet" href="css/mycss.css">  	
+	<link rel="stylesheet" href="css/mycss.css"> 
+	<link rel="stylesheet" href="include/styles.css"> 
 <script language="JavaScript" type="text/javascript" src="<?php echo WEB_ROOT;?>library/common.js"></script>
 <script language="JavaScript" type="text/javascript" src="<?php echo WEB_ROOT;?>library/complains.js"></script>
 </head>

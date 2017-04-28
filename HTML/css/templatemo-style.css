@@ -29,7 +29,7 @@ p {  line-height: 2; }
 p:last-child { margin-bottom: 0; }
 
 body {
-	color: #000;
+	color: #001;
 	font-family: 'Open Sans', Helvetica, Arial, sans-serif;
 	font-size: 18px;
 	font-weight: 300;
