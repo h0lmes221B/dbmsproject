@@ -36,7 +36,7 @@
 	</div>
 </div>
 <footer class="tm-footer">
-                        <p class="text-xs-center">Copyright &copy; 2017 slowB</p>
+                        <p class="text-xs-center">Copyright &copy; 2017 Group W</p>
                     </footer>
 </body>
 </html>
