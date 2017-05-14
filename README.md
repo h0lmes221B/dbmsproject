@@ -1,8 +1,8 @@
 # Complain Management System - php
 
 ## About
- “Online Customer Complain System Project in Java” is a web based application which will be used for handling the various types of complaints occurred in the product of any kind of organization.
-This project was made as a part of our DBM432C course in third sem.
+ “Online Customer Complain System Project in Java” is a web based application which will be used for handling the various types of complaints occurred in the product of any kind of organization.  
+This project was made as a part of our DBM432C course in fourth sem.  
 The main focus of this project was to implement Database Management(we did it through mysql [XAMPP]).
 
 ## How to use
