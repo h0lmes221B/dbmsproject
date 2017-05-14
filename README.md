@@ -25,8 +25,9 @@ The main focus of this project was to implement Database Management(we did it th
  Shubhanshu Singh -  [GitHub](https://github.com/frustrated-coder), [Facebook](https://www.facebook.com/shubh.singh.9)
 
 ## Contributions
- You can contribute to this project by sending a pull request. Feedbacks are most welcome.
+ You can contribute to this project by sending a pull request.   
+ Feedbacks are most welcome.
 
 ## Uses
- Copy and paste it for your College Projects 😉.
+ Copy and paste it for your College Projects 😉.  
  We are kind hearted people 😛.
