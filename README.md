@@ -1,7 +1,7 @@
 # Complain Management System - php
 
 ## About
- “Online Customer Complain System Project in Java” is a web based application which will be used for handling the various types of complaints occurred in the product of any kind of organization.  
+ “Online Customer Complain System Project” is a web based application which will be used for handling the various types of complaints occurred in the product of any kind of organization.  
 This project was made as a part of our DBM432C course in fourth sem.  
 The main focus of this project was to implement Database Management(we did it through mysql [XAMPP]).
 
@@ -14,15 +14,11 @@ The main focus of this project was to implement Database Management(we did it th
  6. __Voila__ . 
 
 ## Created By
- Tushar Murarka - [GitHub](https://github.com/stark03), [Facebook](https://www.facebook.com/tusharmurarka27)
- 
- Himanshu Gusain - [GitHub](https://github.com/Himanshu54), [Facebook](https://www.facebook.com/SlOwBoT54)
- 
- Prajjawal Agarwal - [Github](https://github.com/prajjawal05), [Facebook](https://en.wikipedia.org/wiki/Asshole)
- 
- Pranjul Tripathi - [Github](https://github.com/pt97), [Facebook](https://www.facebook.com/profile.php?id=100009679789717)
- 
- Shubhanshu Singh -  [GitHub](https://github.com/frustrated-coder), [Facebook](https://www.facebook.com/shubh.singh.9)
+ Tushar Murarka - [GitHub](https://github.com/stark03), [Facebook](https://www.facebook.com/tusharmurarka27)   
+ Himanshu Gusain - [GitHub](https://github.com/Himanshu54), [Facebook](https://www.facebook.com/SlOwBoT54) 
+ Prajjawal Agarwal - [Github](https://github.com/prajjawal05), [Facebook](https://www.facebook.com/prajjawal05)  
+ Pranjul Tripathi - [Github](https://github.com/pt97), [Facebook](https://www.facebook.com/profile.php?id=100009679789717)  
+ Shubhanshu Singh -  [GitHub](https://github.com/frustrated-coder), [Facebook](https://www.facebook.com/shubh.singh.9)  
 
 ## Contributions
  You can contribute to this project by sending a pull request.   
