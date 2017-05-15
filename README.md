@@ -20,7 +20,7 @@ The main focus of this project was to implement Database Management(we did it th
  
  Prajjawal Agarwal - [Github](https://github.com/prajjawal05), [Facebook](https://www.facebook.com/prajjawal05)
  
- Pranjul Tripathi - [Github](https://github.com/pt97), [Facebook](https://www.facebook.com/prajjawal05)
+ Pranjul Tripathi - [Github](https://github.com/pt97), [Facebook](https://www.facebook.com/profile.php?id=100009679789717)
  
  Shubhanshu Singh -  [GitHub](https://github.com/frustrated-coder), [Facebook](https://www.facebook.com/shubh.singh.9)
 
