@@ -18,7 +18,7 @@ The main focus of this project was to implement Database Management(we did it th
  
  Himanshu Gusain - [GitHub](https://github.com/Himanshu54), [Facebook](https://www.facebook.com/SlOwBoT54)
  
- Prajjawal Agarwal - [Github](https://github.com/prajjawal05), [Facebook](https://www.facebook.com/prajjawal05)
+ Prajjawal Agarwal - [Github](https://github.com/prajjawal05), [Facebook](https://en.wikipedia.org/wiki/Asshole)
  
  Pranjul Tripathi - [Github](https://github.com/pt97), [Facebook](https://www.facebook.com/profile.php?id=100009679789717)
  
